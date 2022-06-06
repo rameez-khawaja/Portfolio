@@ -1,0 +1,13 @@
+img {
+    width: 20%;
+    height: 20%;
+    border-radius: 25%;
+    border-style: solid;
+    border-color:cornflowerblue;
+}
+body {
+    background-color: darkcyan;
+}
+.Navigate {
+    color: white;
+}
