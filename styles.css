@@ -9,7 +9,14 @@ body {
     background-color: darkcyan;
     margin: 0px;
     color: lightblue;
+    text-align: center;
+    list-style-position: inside;
 }
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
 
 /* Navigation bar */
 .navigation {
