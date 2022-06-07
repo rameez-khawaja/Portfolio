@@ -7,7 +7,7 @@ img {
 }
 body {
     background-color: darkcyan;
-    margin: 1px;
+    margin: 0px;
     color: lightblue;
 }
 
@@ -17,17 +17,23 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}
-.navigation>li {
-    float: left;
-}
+    border: 1px solid lightblue;}
 .navigation>li a {
-    display: block;
     color: lightblue;
+    border-right: 1px solid lightblue;
+    display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: left;}
+#name {
+    float: right;
+    padding: 14px 16px;
+    display: block;
+    text-align: center;
 }
 .navigation>li a:hover {
-    background-color: #111;
+    background-color: #111;}
+.active{
+    background-color: #086660;
 }
