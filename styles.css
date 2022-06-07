@@ -11,6 +11,7 @@ body {
     color: lightblue;
 }
 
+/* Navigation bar */
 .navigation {
     list-style-type: none;
     margin: 0;
@@ -30,8 +31,7 @@ body {
     float: right;
     padding: 14px 16px;
     display: block;
-    text-align: center;
-}
+    text-align: center;}
 .navigation>li a:hover {
     background-color: #111;}
 .active{
